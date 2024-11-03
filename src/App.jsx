@@ -6,24 +6,28 @@ import StatefulForm from "./Components/StatefulForm";
 import RefForm from "./Components/RefForm";
 import CustomHookForm from "./Components/CustomHookForm";
 import ReusableForm from "./Components/ReusableForm";
+import Grandpa from "./Components/Grandpa";
 
 function App() {
-  const handleSignUpSubmit = (data) => {
-    console.log('sign up data', data);
+  // const handleSignUpSubmit = (data) => {
+  //   console.log('sign up data', data);
    
-  };
-  const handleUpdateProfile = (data) => {
-    console.log('Update profile data', data);
-  };
+  // };
+  // const handleUpdateProfile = (data) => {
+  //   console.log('Update profile data', data);
+  // };
 
   return (
     <>  
-      <h1>Vite + React</h1>
+      <h1>Form Master</h1>
+      <Grandpa></Grandpa>
+
+
       {/* <SimpleForm></SimpleForm> */}
       {/* <StatefulForm></StatefulForm> */}
       {/* <RefForm></RefForm> */}
       {/* <CustomHookForm></CustomHookForm> */}
-      <ReusableForm
+      {/* <ReusableForm
         formTitle={"Sign Up"}
         handleSubmit={handleSignUpSubmit}
       >
@@ -45,7 +49,7 @@ function App() {
             Always keep your profile updated
           </p>
         </div>
-      </ReusableForm>
+      </ReusableForm> */}
     </>
   );
 }
