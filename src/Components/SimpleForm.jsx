@@ -18,7 +18,7 @@ export default function SimpleForm() {
         <br />
         <input type="text" name='phone' placeholder='mobile'/>
         <br />
-        <button>submit</button>
+        <input type="submit" value={'submit'} />
        </form>
         
     </div>
