@@ -16,7 +16,7 @@ export default function SimpleForm() {
         <br />
         <input type="text" name='email' placeholder='email'/>
         <br />
-        <input type="text" name='phone' placeholder='mobile'/>
+        <input type="password" name='password' placeholder='password'/>
         <br />
         <input type="submit" value={'submit'} />
        </form>
